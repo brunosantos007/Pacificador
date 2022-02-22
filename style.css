@@ -1,0 +1,41 @@
+body{
+    background-image: linear-gradient(to left, #E13833,#1A476F);
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+#container{
+    max-width: 900px;
+    margin: auto;
+    position:relative;
+}
+#video{
+    width: 100%;
+    margin-top: 50px;
+}
+#controles{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(0, 0, 0, 0.555);
+    box-sizing: border-box;
+    text-align: center;
+}
+.btn{
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: #D93936;
+}
